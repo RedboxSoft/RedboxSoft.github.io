@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /*.css
+
+Allow: /*.jpg
+
+Allow: /*.jpeg
+
+Allow: /*.gif
+
+Disallow:/terms-of-use.html
+Disallow:/privacy-policy.html
+Host: https://redboxsoft.com/
+Sitemap: https://redboxsoft.com/sitemap.xml
