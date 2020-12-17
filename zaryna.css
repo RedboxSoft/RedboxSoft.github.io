@@ -1,0 +1,28 @@
+h1 {
+ text-align: center;
+ font-size:23px;
+ color:#1f6e77;
+ font-family:'CaviarDreams','Comic Sans MS',"Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+ font-family:'PlayfairDisplay','Comic Sans MS',"Lucida Grande",Verdana,Arial,Helvetica,sans-serif
+}
+h2 {
+ text-align: center;
+ font-size:20px;
+ color:#626666;
+ font-family:'CaviarDreams','Comic Sans MS',"Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+ font-family:'PlayfairDisplay','Comic Sans MS',"Lucida Grande",Verdana,Arial,Helvetica,sans-serif
+}
+p {
+	text-align: justify!important;
+}
+h2 {
+	text-align: center;
+}
+.img {
+	width: 60%;
+	margin: 0 auto;
+	
+}
+.aligncenter {
+    text-align: center;
+}

@@ -212,6 +212,10 @@ body {
 	z-index: 100;
 }
 
+.header-background-empty {
+	height: var(--bar-height);
+}
+
 .bar__menu {
 	width: 30px;
 }
