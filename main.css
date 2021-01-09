@@ -212,6 +212,13 @@ body {
 	z-index: 100;
 }
 
+.header-background-none {
+	width: 100%;
+	height: var(--bar-height);
+	background-color: #F6F6F6;
+	z-index: 100;
+}
+
 .header-background-empty {
 	height: var(--bar-height);
 }
