@@ -24,6 +24,23 @@ body {
 	box-sizing: border-box;
 }
 
+.u-centered-middle {
+	width: 100%;
+	max-width: 590px;
+	margin: 0 auto;
+	padding: 8px 16px;
+	box-sizing: border-box;
+}
+
+.word {
+	float: left;
+	width: 110px;
+}
+
+.words {
+	display: inline-block
+}
+
 .bar {
 	z-index: 1;
 	margin: auto;
@@ -184,6 +201,13 @@ body {
 	text-align: center;
 }
 
+.dic-description-container {
+	max-width: 360px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
 .apps-icons-container {
 	padding-left: 16px;
 }
@@ -201,6 +225,13 @@ body {
 .header-background {
 	width: 100%;
 	height: 330px;
+	background-color: #F6F6F6;
+	z-index: 100;
+}
+
+.header-background-dic {
+	width: 100%;
+	height: 300px;
 	background-color: #F6F6F6;
 	z-index: 100;
 }
