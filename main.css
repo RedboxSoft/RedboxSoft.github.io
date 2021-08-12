@@ -194,6 +194,18 @@ body {
 	margin: 0 auto;
 }
 
+.screenshot-with-padding {
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 18px;
+}
+
+.screenshot-vertical {
+	width: 50%;
+	margin: 0 auto;
+	padding-left: 18px;
+}
+
 .dev-description-container {
 	max-width: 350px;
 	width: 100%;
@@ -311,4 +323,27 @@ body {
 	.footer__link-container {
 		display: inline-block;
 	}
+}
+
+.collapsible {
+	background: none !important;
+	border: none;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: arial, sans-serif;
+	color: #0025E7;
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 15px;
+	text-align: left;
+}
+
+.content {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 }
